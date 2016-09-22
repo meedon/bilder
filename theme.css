@@ -6,6 +6,7 @@ table {
 
 th, td {
   padding: 15px;
+  width: 450px;
 }
 
 table, th, td {
@@ -23,7 +24,11 @@ div.table {
   padding: 10px;
   padding-top: 45px;
 }
-
+div.indextext {
+  padding: 80px;
+  text-align: center;
+  font-family: monospace;
+}
 
 /* All kod bör gå ovanför detta då det under är menyn och kan
 störa din / vår egen kod */
