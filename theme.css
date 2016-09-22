@@ -1,8 +1,45 @@
+
 ul {
   list-style: circle;
   margin-left: auto;
   margin-right: auto;
 }
+=======
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+th, td {
+  padding: 15px;
+  width: 450px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+div.table {
+  padding: 10px;
+  padding-top: 45px;
+}
+div.indextext {
+  padding: 80px;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* All kod bör gå ovanför detta då det under är menyn och kan
+störa din / vår egen kod */
+>>>>>>> master
 *{
   margin:0;
   padding:0;
@@ -14,11 +51,11 @@ body {
 .mobile-menu {
   display:block;
   width:100%;
-background: #8aa8bd/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
-line-height: 1.6em;
-font-weight: 400;
-width:100%;
-text-align:center;
+  background: #8aa8bd/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
+  line-height: 1.6em;
+  font-weight: 400;
+  width:100%;
+  text-align:center;
 	position: relative;
   margin:0 auto;
 }
@@ -152,4 +189,3 @@ transition: all 0.4s ease 0s;
 	.mobile-menu .show-menu {
 		display:block;
 	}
-}
