@@ -34,7 +34,6 @@ div.table {
 div.indextext {
   padding: 80px;
   text-align: center;
-  font-family: monospace;
 }
 
 /* All kod bör gå ovanför detta då det under är menyn och kan
@@ -45,7 +44,7 @@ störa din / vår egen kod */
   padding:0;
 }
 body {
-	font-family: Helvetica, Arial, sans-serif;
+  font-family: monospace;
   font-size:16px;
 }
 .mobile-menu {
@@ -82,7 +81,7 @@ body {
 	display:block;
 	min-width:140px;
 	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: monospace;
 	color: #fff;
   text-transform:uppercase;
 	background: #8aa8bd;
