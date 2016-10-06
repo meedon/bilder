@@ -31,7 +31,6 @@ div.indextext {
   color: lightblue;
 }
 
-
 img.speed {
   height: 200px;
   width: 152px;
@@ -45,6 +44,7 @@ div.bild {
 img.home {
   width: 100%;
 }
+
 /* All kod bör gå ovanför detta då det under är menyn och kan
 störa din / vår egen kod */
 *{
