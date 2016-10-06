@@ -4,6 +4,10 @@ table {
   width: 900px;
 }
 
+p {
+  color: lightblue;
+}
+
 th, td {
   padding: 15px;
   width: 450px;
@@ -30,6 +34,14 @@ div.indextext {
   color: lightblue;
 }
 
+div.interlacingTitel {
+  padding: 80px;
+  text-align: center;
+}
+
+div.interlacingText {
+  text-align: center;
+}
 /* All kod bör gå ovanför detta då det under är menyn och kan
 störa din / vår egen kod */
 *{
