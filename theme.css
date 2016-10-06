@@ -27,6 +27,7 @@ div.table {
 div.indextext {
   padding: 80px;
   text-align: center;
+  color: lightblue;
 }
 
 /* All kod bör gå ovanför detta då det under är menyn och kan
@@ -38,6 +39,8 @@ störa din / vår egen kod */
 body {
   font-family: monospace;
   font-size:16px;
+  background-color: gray;
+
 }
 .mobile-menu {
   display:block;
